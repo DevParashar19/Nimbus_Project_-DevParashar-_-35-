@@ -3,33 +3,33 @@
 This is our group's PPS project where we made Project simulating  a secure Electronic Voting System (EVS) similar to real digital voting machines.
 the system demonstrates:
 
-Secure authentication
+⭐Secure authentication
 
-Data integrity mechanisms
+⭐Data integrity mechanisms
 
-Use of dynamic memory, pointers, and modular programming
+⭐Use of dynamic memory, pointers, and modular programming
 
-Proper separation of concerns using multiple .c files
+⭐Proper separation of concerns using multiple .c files
 
-The system is simple but includes the core concepts used in real-world systems like EVMs and online voting portals.
+⭐The system is simple but includes the core concepts used in real-world systems like EVMs and online voting portals.
 
 
 It includes:
 
 
-Voter registration & authentication
+⭐Voter registration & authentication
 
-Candidate registration
+⭐Candidate registration
 
-Secure vote casting (one vote per voter)
+⭐Secure vote casting (one vote per voter)
 
-Transaction logging with checksum-based tamper detection
+⭐Transaction logging with checksum-based tamper detection
 
-Audit trail & reporting
+⭐Audit trail & reporting
 
-Dynamic memory allocation for voters, candidates, and logs
+⭐Dynamic memory allocation for voters, candidates, and logs
 
-Modular design with 4 independent source files
+⭐Modular design with 4 independent source files
 
 We made this completely in C language using VS Code ,and the program runs in terminal/console only (no website or UI).
 
@@ -38,63 +38,63 @@ We made this completely in C language using VS Code ,and the program runs in ter
 
 🔐 1. Voter Registration & Authentication
 
-Unique voter IDs
+⭐Unique voter IDs
 
-4-digit PIN system
+⭐4-digit PIN system
 
-Verification of voter identity
+⭐Verification of voter identity
 
-“One voter = one vote” enforcement
+⭐“One voter = one vote” enforcement
 
 🗳 2. Candidate Registration
 
-Add unlimited candidates using dynamic memory
+⭐Add unlimited candidates using dynamic memory
 
-Store candidate names and IDs
+⭐Store candidate names and IDs
 
-Auto-tally votes
+⭐Auto-tally votes
 
 🧾 3. Vote Casting
 
-Voter logs in securely
+⭐Voter logs in securely
 
-Chooses from available candidates
+⭐Chooses from available candidates
 
-Vote is added to the candidate
+⭐Vote is added to the candidate
 
-Voter cannot vote twice
+⭐Voter cannot vote twice
 
-Auto-generation of transaction logs
+⭐Auto-generation of transaction logs
 
 🧩 4. Audit Trail (Log System)
 
-Logs every vote:
+⭐Logs every vote:
 
-Voter ID
+⭐Voter ID
 
-Candidate ID
+⭐Candidate ID
 
-Timestamp
+⭐Timestamp
 
-Auto-generated checksum
+⭐Auto-generated checksum
 
-Detects any manipulation in the data
+⭐Detects any manipulation in the data
 
 📊 5. Results & Reporting
 
-Display final vote count
+⭐Display final vote count
 
-Audit log verification output (OK / CORRUPTED)
+⭐Audit log verification output (OK / CORRUPTED)
 
 🧠 6. Memory & Structure Concepts
 
-Dynamic memory (malloc, realloc)
+⭐Dynamic memory (malloc, realloc)
 
-Pointers
+⭐Pointers
 
-Multiple structures
+⭐Multiple structures
 
-Modular code (5 files)
+⭐Modular code (5 files)
 
 
 
