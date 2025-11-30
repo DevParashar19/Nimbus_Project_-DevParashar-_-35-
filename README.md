@@ -36,7 +36,7 @@ We made this completely in C language using VS Code ,and the program runs in ter
 
 🚀 Key Features
 
-🔐 1. Voter Registration & Authentication
+🔐 1️⃣ Voter Registration & Authentication
 
 ⭐Unique voter IDs
 
@@ -46,7 +46,7 @@ We made this completely in C language using VS Code ,and the program runs in ter
 
 ⭐“One voter = one vote” enforcement
 
-🗳 2. Candidate Registration
+🗳 2️⃣ Candidate Registration
 
 ⭐Add unlimited candidates using dynamic memory
 
@@ -54,7 +54,7 @@ We made this completely in C language using VS Code ,and the program runs in ter
 
 ⭐Auto-tally votes
 
-🧾 3. Vote Casting
+🧾 3️⃣ Vote Casting
 
 ⭐Voter logs in securely
 
@@ -66,7 +66,7 @@ We made this completely in C language using VS Code ,and the program runs in ter
 
 ⭐Auto-generation of transaction logs
 
-🧩 4. Audit Trail (Log System)
+🧩 4️⃣ Audit Trail (Log System)
 
 ⭐Logs every vote:
 
@@ -80,13 +80,13 @@ We made this completely in C language using VS Code ,and the program runs in ter
 
 ⭐Detects any manipulation in the data
 
-📊 5. Results & Reporting
+📊 5️⃣ Results & Reporting
 
 ⭐Display final vote count
 
 ⭐Audit log verification output (OK / CORRUPTED)
 
-🧠 6. Memory & Structure Concepts
+🧠 6️⃣ Memory & Structure Concepts
 
 ⭐Dynamic memory (malloc, realloc)
 
