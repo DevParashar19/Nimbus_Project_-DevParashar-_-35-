@@ -103,17 +103,17 @@ We made this completely in C language using VS Code ,and the program runs in ter
 
 
 
-                +---------------------+
-                |     main.c          |
-                | (Menu + Control)    |
-                +-----+---------+-----+
-                      |         |
-        ---------------------------------------
-        |               |                    |
-+---------------+ +----------------+ +-------------------+ +-----------------+
-| voter_module  | | candidate_mod  | | vote_module       | | audit_module    |
-| Registration  | | Add/Display    | | Cast Vote + Logs  | | Verify Checks   |
-+---------------+ +----------------+ +-------------------+ +-----------------+
+                          +---------------------+
+                          |     main.c          |
+                          | (Menu + Control)    |
+                          +-----+---------+-----+
+                                |         |
+                   ---------------------------------------
+                   |               |                    |
+       +---------------+ +----------------+ +-------------------+ +-----------------+
+       | voter_module  | | candidate_mod  | | vote_module       | | audit_module    |
+       | Registration  | | Add/Display    | | Cast Vote + Logs  | | Verify Checks   |
+       +---------------+ +----------------+ +-------------------+ +-----------------+
 
 
 
