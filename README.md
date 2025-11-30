@@ -99,6 +99,10 @@ We made this completely in C language using VS Code ,and the program runs in ter
 
 
 🏗 System Architecture
+
+
+
+
                 +---------------------+
                 |     main.c          |
                 | (Menu + Control)    |
