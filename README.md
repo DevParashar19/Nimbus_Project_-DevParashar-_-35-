@@ -36,65 +36,65 @@ We made this completely in C language using VS Code ,and the program runs in ter
 
 🚀 Key Features
 
-🔐 1️⃣ Voter Registration & Authentication
+🔐 Voter Registration & Authentication
 
-⭐Unique voter IDs
+1️⃣Unique voter IDs
 
-⭐4-digit PIN system
+2️⃣4-digit PIN system
 
-⭐Verification of voter identity
+3️⃣Verification of voter identity
 
-⭐“One voter = one vote” enforcement
+4️⃣“One voter = one vote” enforcement
 
-🗳 2️⃣ Candidate Registration
+🗳 Candidate Registration
 
-⭐Add unlimited candidates using dynamic memory
+1️⃣Add unlimited candidates using dynamic memory
 
-⭐Store candidate names and IDs
+2️⃣Store candidate names and IDs
 
-⭐Auto-tally votes
+3️⃣Auto-tally votes
 
-🧾 3️⃣ Vote Casting
+🧾 Vote Casting
 
-⭐Voter logs in securely
+1️⃣Voter logs in securely
 
-⭐Chooses from available candidates
+2️⃣Chooses from available candidates
 
-⭐Vote is added to the candidate
+3️⃣Vote is added to the candidate
 
-⭐Voter cannot vote twice
+4️⃣Voter cannot vote twice
 
-⭐Auto-generation of transaction logs
+5️⃣Auto-generation of transaction logs
 
-🧩 4️⃣ Audit Trail (Log System)
+🧩 Audit Trail (Log System)
 
-⭐Logs every vote:
+1️⃣Logs every vote:
 
-⭐Voter ID
+2️⃣Voter ID
 
-⭐Candidate ID
+3️⃣Candidate ID
 
-⭐Timestamp
+4️⃣Timestamp
 
-⭐Auto-generated checksum
+5️⃣Auto-generated checksum
 
-⭐Detects any manipulation in the data
+6️⃣Detects any manipulation in the data
 
-📊 5️⃣ Results & Reporting
+📊 Results & Reporting
 
-⭐Display final vote count
+1️⃣Display final vote count
 
-⭐Audit log verification output (OK / CORRUPTED)
+2️⃣Audit log verification output (OK / CORRUPTED)
 
-🧠 6️⃣ Memory & Structure Concepts
+🧠 Memory & Structure Concepts
 
-⭐Dynamic memory (malloc, realloc)
+1️⃣Dynamic memory (malloc, realloc)
 
-⭐Pointers
+2️⃣Pointers
 
-⭐Multiple structures
+3️⃣Multiple structures
 
-⭐Modular code (5 files)
+4️⃣Modular code (5 files)
 
 
 
