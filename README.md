@@ -1,3 +1,5 @@
+🧭 Introduction
+
 This is our group's PPS project where we made Project simulating  a secure Electronic Voting System (EVS) similar to real digital voting machines.
 the system demonstrates:
 
@@ -13,6 +15,7 @@ The system is simple but includes the core concepts used in real-world systems l
 
 
 It includes:
+
 
 Voter registration & authentication
 
@@ -30,7 +33,9 @@ Modular design with 4 independent source files
 
 We made this completely in C language using VS Code ,and the program runs in terminal/console only (no website or UI).
 
+
 🚀 Key Features
+
 🔐 1. Voter Registration & Authentication
 
 Unique voter IDs
@@ -91,6 +96,8 @@ Multiple structures
 
 Modular code (5 files)
 
+
+
 🏗 System Architecture
                 +---------------------+
                 |     main.c          |
@@ -105,10 +112,18 @@ Modular code (5 files)
 +---------------+ +----------------+ +-------------------+ +-----------------+
 
 
+
+
 🚀 How to Run the Project
+
 ✅ 1.A C compiler installed
+
 📁 2. Project Folder Setup
+
 ⚙️ 3. Compilation Command
+
 ▶️ 4. Run the Program
+
 📌 5. Using the Program
+
 🛠 6. Optional: Clean Build
