@@ -1,1 +1,4 @@
-hhhh
+*.o
+*.exe
+*.out
+.vscode/
