@@ -1,38 +1,32 @@
 #include <stdio.h>
 #include "project.h"
 
-void addAuditLog(int voterID, int candidateID) {
-    logs[logCount].logID = logCount + 1;
-    logs[logCount].voterID = voterID;
-    logs[logCount].candidateID = candidateID;
-    logs[logCount].checksum = generateChecksum(voterID, candidateID);
+int main() {
+    int choice;
 
-    logCount++;
-}
+    while (1) {
+        printf("\n===== VOTING SYSTEM =====\n");
+        printf("1. Register Voter\n");
+        printf("2. Add Candidate\n");
+        printf("3. Cast Vote\n");
+        printf("4. List Voters\n");
+        printf("5. View Candidates\n");
+        printf("6. Show Audit Log\n");
+        printf("7. Exit\n");
 
-void showAuditLogs() {
-    printf("\n--- Audit Logs ---\n");
-    for (int i = 0; i < logCount; i++) {
-        printf("LogID: %d | VoterID: %d | CandidateID: %d | Checksum: %u\n",
-            logs[i].logID,
-            logs[i].voterID,
-            logs[i].candidateID,
-            logs[i].checksum);
-    }
-}
+        printf("Enter choice: ");
+        scanf("%d", &choice);
 
-void verifyAuditLogs() {
-    printf("\n--- Verifying Logs ---\n");
-    int tampered = 0;
-
-    for (int i = 0; i < logCount; i++) {
-        unsigned int expected = generateChecksum(logs[i].voterID, logs[i].candidateID);
-        if (expected != logs[i].checksum) {
-            tampered = 1;
-            printf("Tampering detected in Log ID: %d!\n", logs[i].logID);
+        switch(choice) {
+            case 1: registerVoter(); break;
+            case 2: addCandidate(); break;
+            case 3: castVote(); break;
+            case 4: listVoters(); break;
+            case 5: viewCandidates(); break;
+            case 6: showAuditLog(); break;
+            case 7: exit(0);
+            default: printf("Invalid choice!\n");
         }
     }
-
-    if (!tampered)
-        printf("All logs are intact. No tampering detected.\n");
+    return 0;
 }
