@@ -1,24 +1,27 @@
-#include <stdio.h>
 #include "project.h"
 
-unsigned int generateChecksum(int voterID, int candidateID) {
-    return (voterID ^ candidateID);
-}
-
 void castVote() {
-    int voterIndex = loginVoter();
-    if (voterIndex == -1)
-        return;
+    int id;
+    printf("\nEnter Voter ID: ");
+    scanf("%d", &id);
 
-    printf("\n--- Cast Vote ---\n");
-    listCandidates();
+    int voterIndex = searchVoter(id);
+    if (voterIndex == -1) {
+        printf("Voter not found!\n");
+        return;
+    }
+    if (voters[voterIndex].hasVoted == 1) {
+        printf("Voter already voted!\n");
+        return;
+    }
+
+    viewCandidates();
 
     int choice;
-    printf("Enter Candidate ID to vote: ");
+    printf("\nEnter Candidate ID to vote: ");
     scanf("%d", &choice);
 
     int found = -1;
-
     for (int i = 0; i < candidateCount; i++) {
         if (candidates[i].candidateID == choice) {
             found = i;
@@ -31,7 +34,7 @@ void castVote() {
         return;
     }
 
-    candidates[found].votes++;
+    candidates[found].voteCount++;
     voters[voterIndex].hasVoted = 1;
 
     addAuditLog(voters[voterIndex].voterID, candidates[found].candidateID);
